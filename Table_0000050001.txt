@@ -1,6 +1,5 @@
 OBJECT Table 50001 Donnor
 {
-dd
   OBJECT-PROPERTIES
   {
     Date=17/06/14;
