@@ -1,0 +1,43 @@
+OBJECT Table 50000 test taher
+{
+  OBJECT-PROPERTIES
+  {
+    Date=17/06/14;
+    Time=15:31:38;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+    OnInsert=BEGIN
+               {
+               message(Hello World!');
+               }
+             END;
+
+    CaptionML=FRA=test par Taher;
+  }
+  FIELDS
+  {
+    { 1   ;   ;Code                ;Code10         }
+    { 2   ;   ;Libelle             ;Text30         }
+    { 3   ;   ;test                ;Text30         }
+  }
+  KEYS
+  {
+    {    ;Code                                    ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    {
+      20140617 TBR Cr‚ation
+    }
+    END.
+  }
+}
+
